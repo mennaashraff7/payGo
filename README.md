@@ -1,2 +1,0 @@
-# goPay-website
-# payGo
