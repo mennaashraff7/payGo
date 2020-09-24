@@ -9,10 +9,17 @@
     
 }
 
-
 /*start header */
+header{
+     background-image: url("../images/imagehome.jpg");
+       -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    height:700px;S 
+}
 .header{
     background-color:#f0f3f4;
+    opacity:60%
 }
 .header .navbar{
      overflow: hidden;
@@ -51,11 +58,7 @@
 /*start intro */
 .content  {
     overflow: hidden;
-    background-image: url("../images/imagehome.jpg");
-       -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    height:700px;
+  
 }
 
 .content .info{
@@ -236,7 +239,7 @@
     text-align: center;
 }
 .contact-us .contact-us-content h2{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 0px;
     text-transform: uppercase;
     color: #f2e16d;
@@ -332,4 +335,32 @@
 .footer .footer-content ul li .fa-whatsapp:hover{
    color: green;
     transition: 0.5s;
+}
+
+@media screen and (min-width:767px) and (max-width:992px){
+    .container{
+        width:90%;
+    }
+    
+    .service .process{
+            margin-top:30px;
+    }
+
+     .about-us .container .about-us-left img{
+        margin:100px 0;
+    
+   
+    }  
+    
+}
+
+@media screen and (min-width:300px) 
+{
+
+    .content .info p {
+       margin-top:30px;
+    }
+    .content .info h1{
+        margin-top: 30px;
+    }
 }
