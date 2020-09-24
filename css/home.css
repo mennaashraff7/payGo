@@ -1,0 +1,335 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width: 1170px;
+    margin:0 auto;
+    
+}
+
+
+/*start header */
+.header{
+    background-color:#f0f3f4;
+}
+.header .navbar{
+     overflow: hidden;
+    background-color: #f0f3f4;
+}
+
+.header .navbar ul{
+   list-style:none;
+   float:right;
+   
+}
+
+
+.header .navbar ul li{
+    float:left;
+    margin:0px 33px;
+    padding:10px;
+    font-size:20px;
+    
+    
+}
+.header .navbar ul li a{
+    text-decoration:none;
+    color: #000;
+}
+
+.header .navbar ul li:hover{
+    background-color: #c7cbce;
+    cursor: pointer;
+}
+.header .navbar ul .active{
+   background-color:#c7cbce;
+}
+ /*end header*/
+
+/*start intro */
+.content  {
+    overflow: hidden;
+    background-image: url("../images/imagehome.jpg");
+       -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    height:700px;
+}
+
+.content .info{
+   float: right;
+   width: 50%;
+}
+
+.content  h1,.content h2,.content p,.content button{
+    margin:0;
+}
+.content h1,.content h2{
+   font-family:  Impact, Charcoal, sans-serif;
+}
+.content  h1{
+    margin-top:126px;
+    font-size:100px;
+}
+.content h2{
+    font-size:60px;
+    color: #658287;
+}
+.content p{
+    margin-top:100px;
+    line-height:1.6;
+    margin-bottom:15px;
+    opacity: 80%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content button{
+    background-color: #f9eea6;
+    color: black;
+    border:3px solid black;
+    padding:3px;
+    min-width:150px;
+    font-size:20px;
+    margin-bottom: 30px;
+    font-family: Impact, Charcoal, sans-serif;
+    text-transform: uppercase;
+   
+}
+.content button:hover{
+    background-color:#c7cbce;
+    cursor: pointer;
+}
+
+
+/*end intro*/
+.about-us{
+    overflow: hidden;
+}
+/*about us left part*/
+.about-us .container .about-us-left{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.about-us .container .about-us-left img{
+    margin: 30px 0;
+    width: 100%;
+}
+/*******************/
+
+/*about us right part*/
+.about-us .container .about-us-right{
+    width: 50%;
+    float: right;
+    margin: 50px 0;
+}
+.about-us .container .about-us-right h1{
+    margin: 20px 0;
+    text-align: left;
+    text-transform: uppercase;
+    color: #658287;
+    font-family: 'Chivo', sans-serif;  
+    line-height:1.6;
+}
+.about-us .container .about-us-right hr{
+      width: 120px;
+    color: black;
+    opacity: 50%;
+}
+.about-us .container .about-us-right p{
+    margin: 20px 0;
+    line-height:1.6;
+    opacity: 80%;
+    font-family: 'Montserrat', sans-serif;
+}
+/************************/
+/***************** end of about us part ******************/
+/* start service*/
+
+.service{
+    margin-top: 20px;
+    background-color: #adc0c3;
+    overflow: hidden;
+    
+}
+.service .image{
+      float: left;
+      width: 50%;
+      
+}
+.service .image img{
+    width: 100%;
+}
+
+.service .process{
+    float: right;
+     width: 50%;
+    margin-top:100px;
+    overflow: hidden;
+}
+
+.service .process h1{
+     color: #f2e16d;
+    margin-bottom:10px;
+    font-family: 'Chivo', sans-serif;  
+    line-height:1.6;
+
+}
+.service .process hr{
+     width: 190px;
+    margin-bottom: 15px;
+    background-color: #f2e16d; 
+    opacity: 40%;
+}
+.service .process label{
+    font-size:20px;
+    color: #f2e16d;
+    padding:10px 0;
+   font-family: "Trebuchet MS", Helvetica, sans-serif
+    
+}
+.service .process input{
+    display:block;
+    padding:15px;
+    width:80%;
+    margin-bottom:20px;
+    border-radius: 1.5em;
+    border: none;
+    box-shadow: 2px 4px 1px #f2e16d;
+}
+  
+}
+.service .process .clear{
+    overflow: hidden;
+}
+.service .process .clear input[type="submit"] , .service .process .clear input[type="reset"]{
+    float: left;
+    padding:0;
+    margin:0;
+    width:40%;
+    margin-right:10px;
+    background-color:#f2e16d;
+    color: black;
+    border-radius:0;
+    border:3px solid black;
+    font-size:20px;
+    font-family:Impact, Charcoal, sans-serif;
+    text-transform:uppercase;
+    padding:5px;
+    
+}
+.service .process .clear input[type="submit"]:hover,.service .process .clear input[type="reset"]:hover{
+    background-color: #c7cbce;
+    cursor: pointer;
+    color: black;
+    border: 3px solid black;
+}
+/*end service*/
+/*************** start of contact us part ****************/
+.contact-us{
+    overflow: hidden;
+    background-color: #86a1a5;
+}
+.contact-us .contact-us-content{
+    text-align: center;
+}
+.contact-us .contact-us-content h2{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    color: #f2e16d;
+    font-family: 'Chivo', sans-serif;  
+    line-height:1.6;
+}
+.contact-us .contact-us-content hr{
+    width: 120px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    background-color: #f2e16d; 
+    opacity: 40%;
+}
+.contact-us .contact-us-content #name{
+    width: 30%;
+    height: 30px;
+    border-radius: 1.5em;
+    padding: 0 20px;
+    border: none;
+    box-shadow: 2px 4px 1px #f2e16d;
+}
+.contact-us .contact-us-content #email{
+    width: 30%;
+    height: 30px;
+    border-radius: 1.5em;
+    padding: 0 20px;
+    border: none;
+    box-shadow: 2px 4px 1px #f2e16d;
+}
+.contact-us .contact-us-content #msg{
+    margin: 10px 0;
+    width: 64%;
+    height: 100px;
+    border-radius: 1.5em;
+    padding: 0 20px;
+    border: none;
+    box-shadow: 3px 4px 1px #f2e16d;
+}
+.contact-us .contact-us-content #submit{
+     background-color: #f2e16d;
+    color: black;
+    border:3px solid black;
+    padding:3px;
+    min-width:150px;
+    font-size:20px;
+    margin-bottom: 30px;
+    font-family: Impact, Charcoal, sans-serif;
+    text-transform: uppercase;
+}
+.contact-us .contact-us-content #submit:hover{
+    background-color:#c7cbce;
+    cursor: pointer;
+}
+.footer{
+     overflow: hidden;
+    background-color: #86a1a5;
+}
+.footer .footer-content{
+    text-align: center;
+}
+.footer .footer-content ul{
+    list-style: none;
+    margin: 10px;
+}
+.footer .footer-content ul li{
+    display: inline-block;
+}
+.footer .footer-content ul li a{
+    text-decoration: none;
+    width: 40px;
+    color: white;
+    padding: 5px 10px;
+    border-right: 2px solid white;
+}
+.footer .footer-content ul li .fa-whatsapp{
+    border-right:none;
+}
+.footer .footer-content .copyrights{
+    color: white;
+}
+.footer .footer-content ul li .fa-facebook:hover{
+   color: blue;
+    transition: 0.5s;
+}
+.footer .footer-content ul li .fa-linkedin:hover{
+   color: darkblue;
+    transition: 0.5s;
+}
+.footer .footer-content ul li .fa-github:hover{
+   color: black;
+    transition: 0.5s;
+}
+.footer .footer-content ul li .fa-whatsapp:hover{
+   color: green;
+    transition: 0.5s;
+}
