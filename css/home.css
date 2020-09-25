@@ -15,7 +15,7 @@ header{
        -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
-    height:700px;S 
+    height:700px; 
 }
 .header{
     background-color:#f0f3f4;
@@ -338,29 +338,205 @@ header{
 }
 
 @media screen and (min-width:767px) and (max-width:992px){
+    .header .navbar ul{
+         margin: 0 auto;
+        
+    }
+    .header .navbar ul li{
+       
+        font-size: 30px;
+    }
     .container{
         width:90%;
+        height: auto;
     }
+    header{
     
-    .service .process{
-            margin-top:30px;
+    height:1305px; 
+}
+    .content .info{
+        width: 100%;
+         
+    }
+    .content  h1{
+    margin-top:100px;
+    font-size:200px;
+}
+.content h2{
+    font-size:100px;
+   
+}
+.content p{
+    margin-top:150px;
+    font-size:30px;
+    margin-bottom:50px;
+
+}
+    .content button{
+   
+    min-width:300px;
+    font-size:30px;
+    padding:15px;
+   
+   
+}
+    .about-us{
+        
+    }
+    .about-us .container .about-us-left{
+        width: 100%;
+    
+}
+     .about-us .container .about-us-right{
+        width: 100%;
+        margin: 20px 0 150px 0;
+}
+     .about-us .container .about-us-left img{
+    margin: 200px 0 0px 0;
+    
+}
+    
+    .about-us .container .about-us-right h1{
+       font-size:60px
+
+}
+.about-us .container .about-us-right hr{
+      width: 290px;
+   
+}
+.about-us .container .about-us-right p{
+   margin:50px 0 0px;
+   font-size:30px;
+}
+    
+    
+    .service{
+    margin-top: 20px;
+    background-color: #adc0c3;
+    overflow: hidden;
+    
+}
+.service .image{
+
+      width: 100%;
+      
+}
+.service .image img{
+    width: 100%;
+    margin-bottom:0;
+}
+
+.service .process{
+     width: 100%;
+    margin-top:0px;
+    margin-left:80px;
     }
 
-     .about-us .container .about-us-left img{
-        margin:100px 0;
-    
+.service .process h1{
+    font-size: 60px;
+}
+.service .process hr{
+     width: 300px;
+    margin-bottom: 30px;
+}
+.service .process label{
+    font-size:45px;
    
-    }  
     
+}
+.service .process input{
+    width:80%;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius: 1.9em;
+    box-shadow: 3px 5px 2px #f2e16d;
+    font-size:30px;
+}
+  
+
+
+.service .process .clear input[type="submit"] , .service .process .clear input[type="reset"]{
+    font-size:30px;
+    padding:10px;
+    margin:50px 10px 100px;
+    
+}
+
+.contact-us .contact-us-content{
+    text-align: center;
+    margin-top: 200px;
+}
+.contact-us .contact-us-content h2{
+    margin-top: 40px;
+    font-size:60px;
+}
+.contact-us .contact-us-content hr{
+    width: 350px;
+    margin-bottom:30px;
+}
+.contact-us .contact-us-content #name{
+    width:40%;
+    padding: 13px 20px;
+    margin-right:20px;
+    font-size:30px;
+}
+.contact-us .contact-us-content #email{
+    width: 40%;
+    padding: 13px 20px;
+    font-size:30px;
+}
+.contact-us .contact-us-content #msg{
+    margin: 30px 0;
+    width: 84%;
+    height:300px;
+    padding: 10px 20px;
+    font-size:30px;
+    margin-bottom:20px
+}
+.contact-us .contact-us-content #submit{
+
+    padding:13px;
+    min-width:250px;
+    font-size:30px;
+    margin-bottom: 200px;
+}
+.contact-us .contact-us-content #submit:hover{
+    background-color:#c7cbce;
+    cursor: pointer;
+}
+    .footer{
+       height:60%;
+        padding:0;
+         margin: 0;
+}
+.footer .footer-content{
+    text-align: center;
+    font-size: 20px;
+    
+}
 }
 
 @media screen and (min-width:300px) 
 {
+    header{
+        height:1500px;
+    }
+.content  h1{
+    margin-top:50px;
+}
+.content h2{
+    font-size:100px;
+   
+}
+.content p{
+    margin-top:100px;
+    margin-bottom:25px;
 
-    .content .info p {
-       margin-top:30px;
-    }
-    .content .info h1{
-        margin-top: 30px;
-    }
+}
+    .content button{
+
+   
+   
+}
+   
 }
